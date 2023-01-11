@@ -1,0 +1,153 @@
+.shop{
+    border: none;
+    height: 1000px;
+    width: 700px;
+    margin-top: 20px;
+    justify-content: space-around;
+    margin-left: 600px;
+    
+
+}
+.footy{
+    border: none;
+    height: 400px;
+    width: 700px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.checkout{
+    border: none;
+    height: 600px;
+    width: 700px;
+    background: rgba(254, 255, 253, 0.5);
+    
+}
+.boots{
+    height: 300px;
+    width: 500px;
+}
+.adidas-shoes{
+    text-align: center;
+    color: black;
+}
+.price-stock{
+
+    color:rgb(0,118,0);
+    font-weight:bolder;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+.add-button{
+
+    background-color:rgb(255,216,20);
+    padding-top: 10.35px;
+    padding-bottom: 10.35px;
+    border-style: none;
+    border-radius: 18px;
+    font-size:smaller;
+    font-weight:bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family:sans-serif;
+    cursor: pointer;
+    transition: background-color, 0.15s;
+    margin-left: 235px;
+}
+
+.add-button:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+    
+    
+}
+
+.add-button:active{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0);
+    background-color: rgb(199, 166, 0);
+   
+}
+
+.buy-button{
+
+    background-color: rgb(255,164,28);
+    border-style:none;
+    height: 36px;
+    width: 106px;
+    border-radius: 18px;
+    font-size:smaller;
+    font-weight:bold;
+    font-family:sans-serif;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: background-color, 0.15s;
+    
+}
+
+.buy-button:hover{
+
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+
+.buy-button:active{
+
+    box-shadow: 5px 5px 10px rgba(0,0,0,0);
+    background-color: rgb(197, 118, 0);
+}
+.fn{
+    margin-top: 50px;
+    margin-left: 220px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.ln{
+    margin-top: 50px;
+    margin-left: 220px;
+    padding-left: 50px;
+    padding-right: 50px
+}
+
+.ad{
+    margin-top: 50px;
+    margin-left: 220px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.sb{
+
+    margin-top: 50px;
+    margin-left: 300px;
+    background-color: white;
+    color: rgb(31, 118, 231);
+    border-style: solid;
+    border-color: rgb(31, 118, 231);
+    border-width: 1.5px;
+    width: 65px;
+    height: 36px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+        
+} 
+    
+.sb:hover{
+
+    background-color:rgb(31, 118, 231);
+    color:white;
+
+}
+    
+.sb:active{
+
+    opacity: 0.8;
+}
+body{
+    background-image: url(https://pbs.twimg.com/media/FkQk49uXkAEbrSb?format=jpg&name=900x900);
+    background-size: 50%;
+    background-repeat: repeat;
+}
+
+        
+    
